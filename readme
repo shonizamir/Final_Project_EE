@@ -23,5 +23,6 @@ This repository contains:
     - noisy_input.wav : the input given to the model to separate/enhance
     - output.wav : Model's output 
     - prompt.wav : only in TSE task, the prompt of the speaker we want to extract 
+6. measurements:  A script for calculating measurements
 
 

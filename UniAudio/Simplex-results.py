@@ -255,16 +255,16 @@ def main(base_dir):
 
         inp1_path = wav_dict[rec_key]   # clean (GT)
         inp0_path = noise_dict[rec_key] # noisy (input to model)
-        sepformer_path = inp0_path
+        simplex_path = inp0_path
         if not os.path.isfile(inp1_path):
             print(f"[WARN] missing {os.path.basename(inp1_path)} – skipping")
             continue
         
-        plot_and_save_specs_and_waveforms(fn, inp1_path, samp_path, sepformer_path)
+        plot_and_save_specs_and_waveforms(fn, inp1_path, samp_path, simplex_path)
 
         # load signals
         ref, sr1 = load_wav(inp1_path)
-        sep_est, sr3 = load_wav(sepformer_path)
+        sep_est, sr3 = load_wav(simplex_path)
         est, sr2 = load_wav(samp_path)
 
         sep_est = librosa.resample(sep_est, orig_sr=sr3, target_sr=t_sr)

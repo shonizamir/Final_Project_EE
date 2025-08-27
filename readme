@@ -9,8 +9,12 @@ This repository contains:
     - SPEX_run_file_example.sh : Same as before, modified to fit our targeted speech extraction task 
     - sepFormer_noise_test.scp : Example for a preparation file (noisy input for sepFormer - test batch)
     - sepFormer_wav_test.scp : Example for a preparation file (clean reference for sepFormer - test batch)
+    - results_spex.py: A script that calculates the measurments for the TSE
+    - Simplex-results.py: A script that calculates the measurments (simplex vs GT and teh models output vs GT). This is used on Simplex inference.
+    - SepFormer-results.py: A script that calculates the measurments (SepFormer vs GT and teh models output vs GT). This is used on SepFormer inference.
 3. UniAudio1.5 :
     - uniaudio1.5_sepForemer_tsv_example_denoising : Example for a file given to uniAudio1.5 containing paths for "noisy" sepFormer audio vs clean audio
+    - denoising_task.py: The denoising task script meant to preform the in context learning of UniAudio 1.5
 4. Simplex :
     - simplex_main.py : main file for simplex code, slightly changed to separate our speakers
 5. Results:

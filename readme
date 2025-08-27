@@ -18,3 +18,4 @@ This repository contains:
 4. Simplex :
     - simplex_main.py : main file for simplex code, slightly changed to separate our speakers
 5. Audio Example: Contains folders of different experiments each containing 3 audio file.One for the GT original separated sound, one that is the matching SepFormers output, and one that is the matching UniAudio output.
+6. measurements:  A script for calculating measurements

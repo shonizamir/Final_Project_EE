@@ -1,0 +1,16 @@
+
+This repository contains:
+
+1. SepFormer :
+    - sepFormer_Separation.py : Our code for seprating mixed files using SepFormer
+2. UniAudio :
+    - scps_creation_for_spex.py : Our creation script of the 3 data preparation files for speach extraction task (noisy, clean, prompts)
+    - SE_run_file_example.sh : UniAudio's initial running file, used to call all relevant preparation + training + reference scripts. This was modified to fit our speech enhancement task 
+    - SPEX_run_file_example.sh : Same as before, modified to fit our targeted speech extraction task 
+    - sepFormer_noise_test.scp : Example for a preparation file (noisy input for sepFormer - test batch)
+    - sepFormer_wav_test.scp : Example for a preparation file (clean reference for sepFormer - test batch)
+3. UniAudio1.5 :
+    - uniaudio1.5_sepForemer_tsv_example_denoising : Example for a file given to uniAudio1.5 containing paths for "noisy" sepFormer audio vs clean audio
+4. Simplex :
+    - simplex_main.py : main file for simplex code, slightly changed to separate our speakers
+4. Results:

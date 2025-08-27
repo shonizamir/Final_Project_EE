@@ -13,4 +13,4 @@ This repository contains:
     - uniaudio1.5_sepForemer_tsv_example_denoising : Example for a file given to uniAudio1.5 containing paths for "noisy" sepFormer audio vs clean audio
 4. Simplex :
     - simplex_main.py : main file for simplex code, slightly changed to separate our speakers
-4. Results:
+5. Results:

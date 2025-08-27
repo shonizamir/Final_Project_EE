@@ -17,4 +17,4 @@ This repository contains:
     - denoising_task.py: The denoising task script meant to preform the in context learning of UniAudio 1.5
 4. Simplex :
     - simplex_main.py : main file for simplex code, slightly changed to separate our speakers
-5. Audio Example: Contains 3 audio files, one for the GT original separated sound, one that is the matching SepFormers output, and one that is the matching UniAudio output.
+5. Audio Example: Contains folders of different experiments each containing 3 audio file.One for the GT original separated sound, one that is the matching SepFormers output, and one that is the matching UniAudio output.
